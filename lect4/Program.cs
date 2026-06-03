@@ -60,16 +60,16 @@
 
 
 
-			Console.WriteLine("enter first number");
-			string num1str = Console.ReadLine();
+			//Console.WriteLine("enter first number");
+			//string num1str = Console.ReadLine();
 
 
-			Console.WriteLine("enter opp");
-			string oppStr = Console.ReadLine();
+			//Console.WriteLine("enter opp");
+			//string oppStr = Console.ReadLine();
 
 
-			Console.WriteLine("enter second number");
-			string num2str = Console.ReadLine();
+			//Console.WriteLine("enter second number");
+			//string num2str = Console.ReadLine();
 
 
 
@@ -165,21 +165,21 @@
 			#endregion
 
 
-			decimal balance = 1000;
+			//decimal balance = 1000;
 
-			Console.Write("enter amount");
-			string amountstr = Console.ReadLine();
+			//Console.Write("enter amount");
+			//string amountstr = Console.ReadLine();
 
-			bool success = decimal.TryParse(amountstr, out decimal amount);
-			
-			if (success) {
+			//bool success = decimal.TryParse(amountstr, out decimal amount);
 
-				Console.WriteLine($"your balance is {balance - amount}");			
-			}
-			else
-			{
-				Console.WriteLine("invalid input");
-			}
+			//if (success) {
+
+			//	Console.WriteLine($"your balance is {balance - amount}");			
+			//}
+			//else
+			//{
+			//	Console.WriteLine("invalid input");
+			//}
 
 
 
@@ -193,7 +193,125 @@
 
 			//ბალანსი 1000
 			//მოხმარებელს კითხეთ 500
-   //         ბალანსი 1000-500
+			//         ბალანსი 1000-500
+
+
+
+
+			//loop   
+
+
+			//Console.WriteLine("hi");
+
+
+			//for (int i = 0; i < 10; i++)
+			//{
+			//	Console.WriteLine(i);
+			//}
+
+
+			//for (int i = -30; i <0; i--)
+			//{
+			//	Console.WriteLine(i);
+			//}
+
+
+			//for (int i = length - 1; i >= 0; i--)
+			//{
+
+			//}
+
+			//for forr
+
+
+		
+
+			//for (int i = 2; i < 10; i++)   
+			//{
+			//i 4
+			//	int count = 0;
+			//	for (int j = 2; j < i; j++) 
+			//	{
+			//	   if(i%j == 0)
+			//		{
+			//			count++; //2
+			//		}
+			//	}
+
+			//	if (count > 0)
+			//	{
+			//		Console.WriteLine($"{i} rtulia");
+			//	}
+			//	else
+			//	{
+			//		Console.WriteLine($"{i} martivia");
+			//	}
+
+			//}
+
+			//რიცხვი მარტივია თუ შედგენილი
+			//რიცხვი მარტივია როცა აქვვს ორი გამყოფი :  თავისი თავი და 1 
+			//რიცხვი რთული როცა აქვვს ორზე მეტი გამყოფი
+
+
+			//++ 
+			//	+=2
+			//	+=100
+
+			//for (int i = 0; i < 10; i+=5) 
+			//{
+			//	Console.WriteLine(i);
+			//}
+
+
+
+
+
+
+
+			//for 
+
+			//		while   do while  
+
+
+			//int x = 0;
+
+			//while (15 < 10)
+			//{
+			//	Console.WriteLine();
+			
+			//}
+
+
+
+			//string pass = "123";
+			//string userpass = Console.ReadLine();
+
+			
+			//while(userpass != pass)
+			//{
+			//	Console.WriteLine("Try again");
+			//	userpass = Console.ReadLine();
+			//}
+
+
+
+			//do
+			//{
+			//	Console.WriteLine("ok");
+			//} while (15<10);
+
+
+			//break continue 
+					
+					//foreach 
+
+
+
+
+
+
+
 
 
 
