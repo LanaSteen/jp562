@@ -224,7 +224,7 @@
 			//for forr
 
 
-		
+
 
 			//for (int i = 2; i < 10; i++)   
 			//{
@@ -279,7 +279,7 @@
 			//while (15 < 10)
 			//{
 			//	Console.WriteLine();
-			
+
 			//}
 
 
@@ -287,7 +287,7 @@
 			//string pass = "123";
 			//string userpass = Console.ReadLine();
 
-			
+
 			//while(userpass != pass)
 			//{
 			//	Console.WriteLine("Try again");
@@ -303,17 +303,42 @@
 
 
 			//break continue 
-					
-					//foreach 
+
+			//foreach 
 
 
 
 
 
 
+			//for (int i = 0; i < 5; i++)
+			//{
+
+
+			//	if (i==3)
+			//	{
+			//		continue;  // skip 
+			//	}
+			//	Console.WriteLine(i);
+			//}
+
+			//0 1 2  4 
 
 
 
+			//if (5<1)
+			//{
+			//	Console.WriteLine("metia");
+			//}
+			//else
+			//{
+			//	Console.WriteLine("naklebi");
+			//}
+
+			//for (int i = 5; i >0; i--) 
+			//{
+			//	Console.WriteLine(i);
+			//}
 
 		}
 	}
