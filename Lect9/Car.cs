@@ -15,6 +15,25 @@ namespace Lect9
 	internal class Car
 	{
 
+
+
+
+		public Car()
+		{
+		}
+
+		public Car(string manufacturer, string model, int year, decimal price, string color)
+		{
+			Manufacturer = manufacturer;
+			Model = model;
+			Year = year;
+			Price = price;
+			Color = color;
+		}
+
+
+
+
 		//public string Manufacturer;  // field    " " 
 		public string Manufacturer;
 
@@ -39,9 +58,14 @@ namespace Lect9
 		}      // -5 2027
 
 
+		public int MyProperty { get; set; }
+
+
+
+
 		//full property  --   propfull
 
-		private int _age;
+		private int _age; ///  
 
 		public int Age
 		{
@@ -51,18 +75,6 @@ namespace Lect9
 
 
 
-		public Car()
-		{
-		}
-
-		public Car(string manufacturer, string model, int year, decimal price, string color)
-		{
-			Manufacturer = manufacturer;
-			Model = model;
-			Year = year;
-			Price = price;
-			Color = color;
-		}
 
 		public decimal Price { get; set; }
 		public string Color { get; set; }
